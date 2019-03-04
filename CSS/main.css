@@ -68,13 +68,13 @@ body.anxiety {
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-/*    backface-visibility: hidden;*/
+    /*    backface-visibility: hidden;*/
 }
 
 .heading-primary-main {
     display: block;
     font-size: 4rem;
-/*    font-weight: 400;*/
+    /*    font-weight: 400;*/
     letter-spacing: 5px;
     text-align: center;
     animation: moveInLeft 1s;
@@ -90,14 +90,15 @@ body.anxiety {
     animation: moveInRight 1s;
 }
 
-/* Introduction */
+/* Introduction Anxiety */
 #IntroAnx {
     text-align: center;
     padding: 0% 5%;
 }
 
-#IntroAnx p, h2 {
-    color:black;
+#IntroAnx p,
+h2 {
+    color: black;
     text-shadow: 0px 0px .1px black;
 }
 
@@ -105,15 +106,38 @@ body.anxiety {
 #anxiety {
     display: flex;
     flex-flow: wrap;
-    justify-content:center
+    justify-content: center
 }
 
 #VidAnx iframe {
-    
     margin: 30px;
     width: 300px;
     height: 200px;
 }
+
+/* Facts Anxiety*/
+#facAnx {
+    display: flex;
+    flex-flow: column;
+    
+}
+
+#facAnx section {
+    background-color: rgba(0, 0, 0, 0.4);
+    ;
+    margin: 5px;
+}
+
+#facAnx section h3 {
+    text-align: center;
+}
+
+#facAnx section li {
+    list-style: none;
+    text-align: left;
+    margin-right: 30px;
+}
+
 
 /* Movement */
 
@@ -238,6 +262,35 @@ body.anxiety {
         letter-spacing: 9px;
     }
 
+    /* Facts Anxiety*/
+    #facAnx {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        
+    }
+
+    #facAnx section {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        height: 200px;
+        width:200px;
+        padding: 5% 3%;
+        margin: 5px 10px
+
+    }
+
+    #facAnx section h3 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #facAnx section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 10px;
+    }
+
     /* Dropdown */
 
     .dropdown {
@@ -275,9 +328,27 @@ body.anxiety {
     }
 
     #VidAnx iframe {
-        margin: 30px;
         width: 400px;
         height: 200px;
+    }
+    
+    /* Facts Anxiety*/
+    
+    #facAnx section{
+        width:300px;
+        padding: 0% 2%;
+    }
+    
+    #facAnx section h3 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 19px;
+    }
+
+    #facAnx section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 14px;
     }
 
     /* Dropdown */
