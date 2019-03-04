@@ -17,11 +17,6 @@ html {
 }
 
 body {
-    background: url(/ElevateMentality.github.io/images/clemens-posch-139785-unsplash.jpg);
-    background-position: left 10% bottom 25%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
     font-family: 'Helvetica', sans-serif;
     font-size: 1rem;
     position: relative;
@@ -30,9 +25,22 @@ body {
     min-height: 100%;
     overflow-x: hidden;
     overflow-y: scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+}
+
+body.main {
+    background: url(/ElevateMentality.github.io/images/clemens-posch-139785-unsplash.jpg);
+    background-position: left 10% bottom 25%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body.anxiety {
+    background: url(/ElevateMentality.github.io/images/joachim-lesne-760644-unsplash.jpg);
+    background-position: left 10% bottom 25%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .main-header_logo {
@@ -205,7 +213,7 @@ body {
 
 @media screen and (min-width: 500px) {
     .main-header_logo {
-        height: 200px;
+        height: 250px;
     }
 
     .topnav a {
@@ -242,11 +250,6 @@ body {
 }
 
 @media screen and (min-width: 870px) {
-    .main-header_logo {
-        height: 200px;
-        width: auto;
-    }
-
     .topnav a {
         padding: 1.5rem;
         font-size: 18px;
@@ -265,7 +268,7 @@ body {
     /* Video Anxiety */
     #videos {
         display: flex;
-        flex-flow:row;
+        flex-flow: row;
     }
 
     #VidAnx iframe {
