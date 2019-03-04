@@ -14,6 +14,7 @@
 html {
     height: 100%;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 body {
@@ -36,7 +37,7 @@ body.main {
 }
 
 body.anxiety {
-    background: url(/ElevateMentality.github.io/images/joachim-lesne-760644-unsplash.jpg);
+    background: url(/ElevateMentality.github.io/images/blue-background-gradient-texture.jpg);
     background-position: left 10% bottom 25%;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -67,13 +68,13 @@ body.anxiety {
     padding: 5%;
     background-color: rgba(0, 0, 0, 0.4);
     text-transform: uppercase;
-    backface-visibility: hidden;
+/*    backface-visibility: hidden;*/
 }
 
 .heading-primary-main {
     display: block;
     font-size: 4rem;
-    font-weight: 400;
+/*    font-weight: 400;*/
     letter-spacing: 5px;
     text-align: center;
     animation: moveInLeft 1s;
@@ -87,26 +88,28 @@ body.anxiety {
     color: forestgreen;
     text-shadow: 0px 0px 2px black;
     animation: moveInRight 1s;
-
 }
 
 /* Introduction */
 #IntroAnx {
     text-align: center;
+    padding: 0% 5%;
 }
 
-#IntroAnx p {
-    text-shadow: 0px 0px 5px whitesmoke;
+#IntroAnx p, h2 {
+    color:black;
+    text-shadow: 0px 0px .1px black;
 }
 
 /* Video Anxiety */
-#videos {
+#anxiety {
     display: flex;
     flex-flow: wrap;
-    justify-content: center
+    justify-content:center
 }
 
 #VidAnx iframe {
+    
     margin: 30px;
     width: 300px;
     height: 200px;
@@ -266,7 +269,7 @@ body.anxiety {
     }
 
     /* Video Anxiety */
-    #videos {
+    #anxiety {
         display: flex;
         flex-flow: row;
     }
