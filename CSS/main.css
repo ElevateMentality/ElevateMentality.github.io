@@ -44,6 +44,13 @@ body.anxiety {
     background-size: cover;
 }
 
+/* Pie */
+#pie1 {
+    height: 350px;
+    width: 600px;
+    background-color: transparent;
+}
+
 .main-header_logo {
     width: 100%;
     height: 100%;
@@ -115,24 +122,49 @@ h2 {
     height: 200px;
 }
 
-/* Facts Anxiety*/
-#facAnx {
-    display: flex;
-    flex-flow: column;
-    
+/* Introduction Depression */
+#IntroDep {
+    text-align: center;
+    padding: 0% 5%;
 }
 
-#facAnx section {
+#IntroDep p,
+h2 {
+    color: black;
+    text-shadow: 0px 0px .1px black;
+}
+
+/* Video Depression */
+#depression {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center
+}
+
+#VidDep iframe {
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+/* Facts Depression*/
+#facDep {
+    display: flex;
+    flex-flow: column;
+
+}
+
+#facDep section {
     background-color: rgba(0, 0, 0, 0.4);
     ;
     margin: 5px;
 }
 
-#facAnx section h3 {
+#facDep section h3 {
     text-align: center;
 }
 
-#facAnx section li {
+#facDep section li {
     list-style: none;
     text-align: left;
     margin-right: 30px;
@@ -267,17 +299,16 @@ h2 {
         display: flex;
         flex-flow: row;
         justify-content: center;
-        
+
     }
 
     #facAnx section {
         background-color: rgba(0, 0, 0, 0.4);
         border-radius: 50%;
         height: 200px;
-        width:200px;
+        width: 200px;
         padding: 5% 3%;
         margin: 5px 10px
-
     }
 
     #facAnx section h3 {
@@ -286,6 +317,34 @@ h2 {
     }
 
     #facAnx section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 10px;
+    }
+    
+    /* Facts Depression*/
+    #facDep {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+
+    }
+
+    #facDep section {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        padding: 5% 3%;
+        margin: 5px 10px
+    }
+
+    #facDep section h3 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #facDep section li {
         list-style: none;
         margin-right: 35px;
         font-size: 10px;
@@ -331,14 +390,14 @@ h2 {
         width: 400px;
         height: 200px;
     }
-    
+
     /* Facts Anxiety*/
-    
-    #facAnx section{
-        width:300px;
+
+    #facAnx section {
+        width: 300px;
         padding: 0% 2%;
     }
-    
+
     #facAnx section h3 {
         text-align: center;
         margin-top: 40px;
@@ -346,6 +405,36 @@ h2 {
     }
 
     #facAnx section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 14px;
+    }
+    
+    /* Video Anxiety */
+    #depression {
+        display: flex;
+        flex-flow: row;
+    }
+
+    #VidDep iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+    /* Facts Depression*/
+
+    #facDep section {
+        width: 300px;
+        padding: 0% 2%;
+    }
+
+    #facDep section h3 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 19px;
+    }
+
+    #facDep section li {
         list-style: none;
         margin-right: 35px;
         font-size: 14px;
