@@ -77,7 +77,7 @@ body {
     letter-spacing: 5px;
     text-align: center;
     color: forestgreen;
-    text-shadow: .5px .5px black;
+    text-shadow: 0px 0px 2px black;
     animation: moveInRight 1s;
 
 }
