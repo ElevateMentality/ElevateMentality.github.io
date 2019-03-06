@@ -44,13 +44,6 @@ body.anxiety {
     background-size: cover;
 }
 
-/* Pie */
-#pie1 {
-    height: 350px;
-    width: 600px;
-    background-color: transparent;
-}
-
 .main-header_logo {
     width: 100%;
     height: 100%;
@@ -65,7 +58,7 @@ body.anxiety {
 .topnav a {
     float: left;
     color: #fff;
-    padding: 1.5rem .7rem;
+    padding: .5rem .5rem;
     text-decoration: none;
 }
 
@@ -122,6 +115,29 @@ h2 {
     height: 200px;
 }
 
+/* Facts Anxiety*/
+#facAnx {
+    display: flex;
+    flex-flow: column;
+
+}
+
+#facAnx section {
+    background-color: rgba(0, 0, 0, 0.4);
+    ;
+    margin: 5px;
+}
+
+#facAnx section h3 {
+    text-align: center;
+}
+
+#facAnx section li {
+    list-style: none;
+    text-align: left;
+    margin-right: 30px;
+}
+
 /* Introduction Depression */
 #IntroDep {
     text-align: center;
@@ -156,7 +172,6 @@ h2 {
 
 #facDep section {
     background-color: rgba(0, 0, 0, 0.4);
-    ;
     margin: 5px;
 }
 
@@ -170,6 +185,84 @@ h2 {
     margin-right: 30px;
 }
 
+/* Introduction Lifestyle */
+#IntroLife {
+    text-align: center;
+    padding: 0% 5%;
+}
+
+#IntroLife p,
+h2 {
+    color: black;
+    text-shadow: 0px 0px .1px black;
+}
+
+/* Video Depression */
+#lifestyle {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center
+}
+
+#VidLife iframe {
+    margin: 30px;
+    width: 300px;
+    height: 200px;
+}
+
+/* Facts Depression*/
+#facLife {
+    display: flex;
+    flex-flow: column;
+
+}
+
+#facLife section {
+    background-color: rgba(0, 0, 0, 0.4);
+    margin: 5px;
+}
+
+#facLife section h3 {
+    text-align: center;
+}
+
+#facLife section li {
+    list-style: none;
+    text-align: left;
+    margin-right: 30px;
+}
+
+/* Introduction Counseling */
+#IntroCoun {
+    text-align: center;
+    padding: 0% 5%;
+}
+
+#IntroCoun p,
+h2 {
+    color: black;
+    text-shadow: 0px 0px .1px black;
+}
+
+/* Facts Counseling*/
+#facCoun {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#facCoun h3 {
+    width: 200px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    align-self: center;
+    padding: 20px;
+    border-radius: 50%;
+}
+
+#facCoun ul {
+    list-style: none;
+}
 
 /* Movement */
 
@@ -221,7 +314,7 @@ h2 {
     border: none;
     outline: none;
     color: #fff;
-    padding: 1.5rem 1rem;
+    padding: .5rem .5rem;
     background-color: inherit;
     font-family: inherit;
     margin: 0;
@@ -280,6 +373,10 @@ h2 {
         font-size: 20px;
     }
 
+    .dropdown .dropbtn {
+        padding: 1.5rem .5rem;
+    }
+
     .heading-primary {
         margin-top: 20px
     }
@@ -321,7 +418,7 @@ h2 {
         margin-right: 35px;
         font-size: 10px;
     }
-    
+
     /* Facts Depression*/
     #facDep {
         display: flex;
@@ -349,6 +446,61 @@ h2 {
         margin-right: 35px;
         font-size: 10px;
     }
+
+    /* Facts Lifestyle */
+    #facLife {
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    #facLife section {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        padding: 5% 3%;
+        margin: 5px 10px
+    }
+
+    #facLife section h3 {
+        text-align: center;
+        font-size: 12px;
+    }
+
+    #facLife section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 10px;
+    }
+
+    /* Facts Counseling*/
+
+    #facCoun {
+        align-items: flex-start;
+        margin-left: 30px;
+    }
+
+    #facCoun ul {
+        list-style: none;
+    }
+
+    #one {
+        display: flex;
+        flex-flow: row;
+    }
+
+    #two {
+        display: flex;
+        flex-flow: row;
+    }
+
+    #three {
+        display: flex;
+        flex-flow: row;
+    }
+
+
 
     /* Dropdown */
 
@@ -409,7 +561,7 @@ h2 {
         margin-right: 35px;
         font-size: 14px;
     }
-    
+
     /* Video Anxiety */
     #depression {
         display: flex;
@@ -438,6 +590,11 @@ h2 {
         list-style: none;
         margin-right: 35px;
         font-size: 14px;
+    }
+
+    #IntroCoun p,
+    h2 {
+        text-align: left;
     }
 
     /* Dropdown */
