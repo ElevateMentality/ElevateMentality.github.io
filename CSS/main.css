@@ -85,7 +85,7 @@ body.anxiety {
     font-size: 1.6rem;
     letter-spacing: 5px;
     text-align: center;
-    color: forestgreen;
+    color: greenyellow;
     text-shadow: 0px 0px 2px black;
     animation: moveInRight 1s;
 }
@@ -197,7 +197,7 @@ h2 {
     text-shadow: 0px 0px .1px black;
 }
 
-/* Video Depression */
+/* Video Lifestyle */
 #lifestyle {
     display: flex;
     flex-flow: wrap;
@@ -210,7 +210,7 @@ h2 {
     height: 200px;
 }
 
-/* Facts Depression*/
+/* Facts Lifestyle*/
 #facLife {
     display: flex;
     flex-flow: column;
@@ -248,7 +248,7 @@ h2 {
 #facCoun {
     display: flex;
     flex-flow: column;
-    align-items: center;
+    /*    align-items: center;*/
 }
 
 #facCoun h3 {
@@ -258,10 +258,50 @@ h2 {
     align-self: center;
     padding: 20px;
     border-radius: 50%;
+    align-items: center;
+    align-content: center;
 }
 
 #facCoun ul {
     list-style: none;
+}
+
+#one {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+    text-align: 
+}
+
+#two {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+}
+
+#three {
+    display: flex;
+    flex-flow: column;
+    align-self: center;
+}
+
+
+/* Introduction About */
+#IntroAbout {
+    text-align: center;
+}
+
+#IntroAbout p,
+h2 {
+    color: black;
+    text-shadow: 0px 0px .1px black;
+    word-break: break-all;
+}
+
+#about {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 /* Movement */
@@ -488,16 +528,19 @@ h2 {
     #one {
         display: flex;
         flex-flow: row;
+        align-self: flex-start
     }
 
     #two {
         display: flex;
         flex-flow: row;
+        align-self: flex-start
     }
 
     #three {
         display: flex;
         flex-flow: row;
+        align-self: flex-start
     }
 
 
@@ -562,7 +605,7 @@ h2 {
         font-size: 14px;
     }
 
-    /* Video Anxiety */
+    /* Video Depression */
     #depression {
         display: flex;
         flex-flow: row;
@@ -590,6 +633,48 @@ h2 {
         list-style: none;
         margin-right: 35px;
         font-size: 14px;
+    }
+
+    /* Video Lifestyle */
+    #lifestyle {
+        display: flex;
+        flex-flow: row;
+    }
+
+    #VidLife iframe {
+        width: 400px;
+        height: 200px;
+    }
+
+    /* Facts Lifestyle*/
+
+    #facLife section {
+        width: 300px;
+        padding: 0% 2%;
+    }
+
+    #facLife section h3 {
+        text-align: center;
+        margin-top: 40px;
+        font-size: 19px;
+    }
+
+    #facLife section li {
+        list-style: none;
+        margin-right: 35px;
+        font-size: 14px;
+    }
+
+    /* Introduction About */
+    #IntroAbout {
+        text-align: left;
+    }
+
+    #about {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: left;
+        margin-left: 30px;
     }
 
     #IntroCoun p,
