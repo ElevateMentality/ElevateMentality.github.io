@@ -596,18 +596,21 @@ h2 {
     #facAnx section {
         width: 300px;
         padding: 0% 2%;
+        height: 300px;
     }
 
     #facAnx section h3 {
         text-align: center;
         margin-top: 40px;
-        font-size: 19px;
+        font-size: 22px;
+        margin-right: 25px;
+        margin-left: 25px;
     }
 
     #facAnx section li {
         list-style: none;
         margin-right: 35px;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     /* Video Depression */
@@ -632,18 +635,21 @@ h2 {
     #facDep section {
         width: 300px;
         padding: 0% 2%;
+        height: 300px;
     }
 
     #facDep section h3 {
         text-align: center;
         margin-top: 40px;
-        font-size: 19px;
+        font-size: 22px;
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
     #facDep section li {
         list-style: none;
-        margin-right: 35px;
-        font-size: 14px;
+        margin-right: 30px;
+        font-size: 20px;
     }
 
     /* Video Lifestyle */
@@ -666,18 +672,21 @@ h2 {
     #facLife section {
         width: 300px;
         padding: 0% 2%;
+        height: 300px;
     }
 
     #facLife section h3 {
         text-align: center;
         margin-top: 40px;
-        font-size: 19px;
+        font-size: 22px;
+        margin-right: 30px;
+        margin-left: 30px
     }
 
     #facLife section li {
         list-style: none;
         margin-right: 35px;
-        font-size: 14px;
+        font-size: 20px;
     }
 
     /* Introduction About */
