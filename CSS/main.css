@@ -580,8 +580,13 @@ h2 {
         display: flex;
         flex-flow: row;
     }
+    
+    #IntroAnx h2, p{
+        text-align: center;
+    }
 
     #VidAnx iframe {
+/*        margin-top: 70px;*/
         width: 400px;
         height: 200px;
     }
@@ -610,8 +615,14 @@ h2 {
         display: flex;
         flex-flow: row;
     }
+    
+    #IntroDep h2, p{
+        text-align: center;
+    }
+
 
     #VidDep iframe {
+        margin-top: 70px;
         width: 400px;
         height: 200px;
     }
@@ -639,6 +650,10 @@ h2 {
     #lifestyle {
         display: flex;
         flex-flow: row;
+    }
+    
+    #IntroLife h2, p{
+        text-align: center;
     }
 
     #VidLife iframe {
